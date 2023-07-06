@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.main.MainApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-07-06T08:11:34" hostname="DESKTOP-HVCOD12" time="0.935">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.main.MainApplicationTests" time="0.935"/>
+  <system-out><![CDATA[17:11:32.410 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.main.MainApplicationTests]: MainApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:11:32.540 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.main.MainApplication for test class com.example.main.MainApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.1)
+
+2023-07-06T17:11:33.033+09:00  INFO 10704 --- [    Test worker] com.example.main.MainApplicationTests    : Starting MainApplicationTests using Java 19.0.2 with PID 10704 (started by vip in C:\06.07T\main)
+2023-07-06T17:11:33.035+09:00  INFO 10704 --- [    Test worker] com.example.main.MainApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-07-06T17:11:33.990+09:00  INFO 10704 --- [    Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-07-06T17:11:34.038+09:00  INFO 10704 --- [    Test worker] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2023-07-06T17:11:34.431+09:00  INFO 10704 --- [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-07-06T17:11:34.648+09:00  INFO 10704 --- [    Test worker] com.example.main.MainApplicationTests    : Started MainApplicationTests in 1.905 seconds (process running for 3.457)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
